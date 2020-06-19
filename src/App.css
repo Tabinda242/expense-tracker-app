@@ -1,0 +1,112 @@
+
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 5px;
+    margin: 0;
+    font-family: 'Arial',Verdana, sans-serif;
+  }
+  .container {
+    margin: 30px auto;
+    width: 350px;
+  }
+  h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    color: darkblue;
+  }
+  h3 {
+    margin: 0;
+    
+  }
+  .income-expence {
+    background-color: #fff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+  }
+  .income-expence > div {
+    flex: 1;
+    text-align: center;
+  }
+  .income-expence > div:first-of-type {
+    border-right: 1px solid #dedede;
+  }
+  .plus, .minus {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    border-radius: 6px;
+  }
+  .plus {
+    color: darkslategrey;
+  }
+  .minus {
+    color: #c0392b;
+  }
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  
+.list li {
+    background-color: #fff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .list li.plus {
+    border-right: 5px solid  darkslategrey;
+  }
+  
+  .list li.minus {
+    border-right: 5px solid #c0392b;
+  }
+  .delete-btn {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+  }
+  .form-control{
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 94%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Text {
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+
+  }
+  .button {
+    cursor: pointer;
+    background-color: darkblue;
+    color: #fff;
+    border:0;
+    border-radius: 6px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%;
+  }
