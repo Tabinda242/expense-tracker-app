@@ -8,7 +8,7 @@ export const AddTransaction = () => {
 
     const {addTransaction} = useContext(GlobalContext);
 
-    const onSubmit = e => {
+    const onSubmit = (e) => {
         e.preventDefault();
 
         if (String(text) === '') {
